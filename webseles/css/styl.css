@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+
+:root{
+
+--primary:#0d6efd;
+--dark:#21252f;
+--body:#888;
+--box-shadow: 0 8px 22px rgba(0,0,0,0,1);
+}
+body{
+
+font-family: sora, "sans-serif";
+line-height: 1.7;
+ color: var(--body);   
+}
+h1,h2,h3,h4,h5,h6
+.display-4{
+
+   color: var(--dark); 
+}
+a{
+
+
+    color: var(--dark);
+    text-decoration: none;
+}
+img{
+
+width: 100%;
+
+}
+
+.navber{
+
+    box-shadow: var(--box-shadow);
+}
+
+.navber.logo{
+    
+
+width: 200px;
+font-weight: 1000;
+}
+.navber.nav-link{
+
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn{
+
+padding: 14px  18px;
+border-width: 2px;
+border-radius: 0;
+
+}
+
+
+
+.hero{
+
+background-image: url(../img/imge.7.jpg) ;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+padding-top: 100px;
+
+z-index: 2;
+}
+.hero::after{
+
+content:"" ;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-color:rgba(61, 61, 67, 0.8);
+z-index: -1;
+
+}
+section{
+padding-top: 120px;
+padding-bottom: 120p;
+}
+
+
+.card-effect{
+
+box-shadow: var(--box-shadow);
+background-color: #fff;
+padding: 25px;
+transition:all 0.5s ease;
+
+}   
+
+.card-effect:hover{
+
+transform: scale(1.1);
+box-shadow: none;
+
+
+}
+.iconbox{
+
+width: 54px;
+height: 54px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: var(--primary);
+color: #fff;
+font-size: 32px;
+border-radius: 100px;
+flex: none;
+}
+.col-img{
+
+    background-image: url(../img/buteafal.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+  
+
+}
+
+
+.footer-top{
+padding-bottom: 90px;
+padding: 90px;
+background-color: var(--dark);
+color: #fff;
+
+}
+.logo{
+
+width: 50px;
+
+height: 30px;
+
+}
+
+.footer-top a{
+
+color: var(--body);
+
+
+}
+.footer-top a:hover{
+
+
+    color: white;
+}
